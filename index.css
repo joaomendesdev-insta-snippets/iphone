@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root {
+    --back-color: #f4f4f4;
+    --cam-color: #260363;
+    --btns-color: #161616;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--back-color);
+    color: white;
+}
+
+h1 {
+    font-size: 65px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 50px 0 -15px 0;
+}
+
+.case {
+    width: 270px;
+    height: 550px;
+    background-color: white;
+    border-radius: 35px;
+    border: 9px solid var(--btns-color);
+    outline: 1px solid rgba(255, 255, 255, 0.799);
+    box-shadow: 0 0 1px 2px rgb(22, 22, 22);
+    position: relative;
+    background-image: url('https://i.redd.it/ios-16-wallpaper-i-made-from-the-hbo-show-might-as-well-v0-cp8nzscsr6ca1.png?width=1080&format=png&auto=webp&s=54f86d0479397456961854861f308ecb4e1eb7b0');
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.headers {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dynamic-island {
+    height: 20px;
+    width: 25%;
+    background-color: var(--btns-color);
+    border-radius: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.headers span {
+    font-size: 10px;
+    margin: 0 auto 0 15%;
+}
+
+.headers .right {
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 auto;
+}
+
+.headers img {
+    height: 10px;
+    margin: 0 7px;
+}
+
+.headers .connection {
+    display: flex;
+    align-items: flex-end;
+}
+
+.bar:nth-child(1) {
+    width: 2.5px;
+    height: 4px;
+    background-color: white;
+    border-radius: 1px;
+    margin: 0 1.1px;
+}
+
+.bar:nth-child(2) {
+    width: 2.5px;
+    height: 7px;
+    background-color: white;
+    border-radius: 1px;
+    margin: 0 1.1px;
+}
+
+.bar:nth-child(3) {
+    width: 2.5px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.136);
+    border-radius: 1px;
+    margin: 0 1.1px;
+}
+
+.bar:nth-child(4) {
+    width: 2.5px;
+    height: 13px;
+    background-color: rgba(255, 255, 255, 0.136);
+    border-radius: 1px;
+    margin: 0 1.1px;
+}
+
+.battery {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 0 4px;
+    border-radius: 3px;
+    font-size: 8px;
+}
+
+.camera {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: var(--cam-color);
+    box-shadow: 0 0 10px 2px rgb(101, 101, 101);
+    margin-right: 7px;
+}
+
+.left-btns {
+    position: absolute;
+    left: -13px;
+    top: 10%;
+}
+
+.left-btns .mute {
+    height: 25px;
+    width: 3px;
+    border-radius: 3px 0 0 3px;
+    background-color: var(--btns-color);
+    margin-bottom: 20px;
+}
+
+.left-btns .sound {
+    height: 40px;
+    width: 3px;
+    border-radius: 3px 0 0 3px;
+    background-color: var(--btns-color);
+    margin-top: 10px;
+}
+
+.right-btn {
+    position: absolute;
+    right: -13px;
+    top: 20%;
+    height: 60px;
+    width: 3px;
+    border-radius: 3px 0 0 3px;
+    background-color: var(--btns-color);
+    margin-top: 10px;
+}
